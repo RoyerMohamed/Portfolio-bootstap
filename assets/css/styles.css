@@ -10,13 +10,14 @@
   --first-color: #4070f4;
   --segond-color: #0e2431;
 }
-/* fonte et typographie */
+/* font et typographie */
 :root {
   --body-font: "open";
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
 }
+
 @media screen and (min-width: 768px) {
   :root {
     --body-font: "open";
@@ -107,8 +108,7 @@ img {
   grid-template-columns: 100%;
   grid-column-gap: 2rem;
   width: calc(100% - 2rem);
-  margin-left: var(--mb-2);
-  margin-right: var(--mb-2);
+  margin: 0 var(--mb-2);
 }
 .l-header {
   width: 100%;
@@ -159,9 +159,9 @@ nav {
   top: 2rem;
   background-color: var(--first-color);
 }
-.nav_logo {
+/* .nav_logo {
   color: var(--segond-color);
-}
+} */
 .nav_toggle {
   color: var(--segond-color);
   font-size: 1.5rem;
@@ -218,6 +218,7 @@ nav {
 /* =======button======= */
 .button {
   display: inline-block;
+  background: linear-gradient(var(--first-color), var(--segond-color));
   background-color: var(--first-color);
   color: #fff;
   padding: 0.75rem 2.5rem;
@@ -442,8 +443,7 @@ columns: gab 2rem;
 }
 @media screen and (min-width: 1024px) {
     .bd-grid{
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
     }
     .home_img{
         right: 10%;

@@ -34,7 +34,7 @@ const sr = ScrollReveal({
 sr.reveal('.home_title', {})
 sr.reveal('.button', {delay:200})
 sr.reveal('.home_img', {delay:400})
-sr.reveal('.home_social-icon', {inteval:200})
+sr.reveal('.home_social-icon', {interval:200})
 
 /*=====Scroll About Animation======*/
 
@@ -46,14 +46,14 @@ sr.reveal('.about_text', {delay:400})
 
 sr.reveal('.skills_subltitle', {})
 sr.reveal('.skills_text', {delay:200})
-sr.reveal('.skills_data', {inteval:200})
+sr.reveal('.skills_data', {interval:200})
 sr.reveal('.skills_img', {delay:400})
 
 /*=====Scroll works  Animation======*/
 
-sr.reveal('.work_img', {inteval:200})
+sr.reveal('.work_img', {interval:200})
 
 /*=====Scroll works  Animation======*/
 
-sr.reveal('.contact_input', {inteval:200})
+sr.reveal('.contact_input', {interval:200})
 

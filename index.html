@@ -15,18 +15,24 @@
   </head>
   <body>
     <!-- HEADER -->
-    <header class="l-header">
+    <header class="l-header bg-bleu">
       <nav class="nav bd-grid">
-        <div><a href="#" class="nav_logo">MOHAMED</a></div>
+        <div><a href="#home" class="nav_logo">MOHAMED</a></div>
         <div class="nav_menu" id="nav-menu">
           <ul class="nav_list">
             <li class="nav_item">
               <a href="#home" class="nav_link active">HOME</a>
             </li>
-            <li class="nav_item"><a href="#about" class="nav_link">ABOUT</a></li>
-            <li class="nav_item"><a href="#skills" class="nav_link">SKILS</a></li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link">ABOUT</a>
+            </li>
+            <li class="nav_item">
+              <a href="#skills" class="nav_link">SKILS</a>
+            </li>
             <li class="nav_item"><a href="#work" class="nav_link">WORK</a></li>
-            <li class="nav_item"><a href="#contact" class="nav_link">CONTACT</a></li>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link">CONTACT</a>
+            </li>
           </ul>
         </div>
         <div class="nav_toggle" id="nav-toggle">
@@ -44,7 +50,7 @@
             <span class="home_title-color"> Mohamed</span><br />
             Développeur Web
           </h1>
-          <a href="#" class="button">Contact</a>
+          <a href="#contact" class="button">Contact</a>
         </div>
         <div class="home_social">
           <a href="" class="home_social-icon"
@@ -87,64 +93,63 @@
       <section class="skills section" id="skills">
         <h2 class="section-title">Skills</h2>
         <div class="skills_container bd-grid">
-            <div>
-
-                <h2 class="skils_subtitle">Profesional skills</h2>
-                <p class="skills_text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Voluptates, doloremque voluptas rem quia dolorem ullam veritatis
-                    soluta aperiam laboriosam
-                </p>
-                <div class="skills_data">
-                    <div class="skills_names">
-                        <i class="bx bxl-html5 skills_icon"></i>
-                        <span class="skills_name">Html 5 </span>
-                    </div>
-                    <div>
-                        <span class="skills_percentage">95%</span>
-                    </div>
-                    <div class="skills_bar skills_html"></div>
-                </div>
-                
-                <div class="skills_data">
-                    <div class="skills_names">
-                        <i class="bx bxl-css3 skills_icon"></i>
-                        <span class="skills_name">Css 3</span>
-                    </div>
-                    <div>
-                        <span class="skills_percentage">85%</span>
-                    </div>
-                    <div class="skills_bar skills_css"></div>
-                </div>
-                
-                <div class="skills_data">
-                    <div class="skills_names">
-                        <i class="bx bxl-javascript skills_icon"></i>
-                        <span class="skills_name">JavaScript</span>
-                    </div>
-                    <div>
-                        <span class="skills_percentage">75%</span>
-                    </div>
-                    <div class="skills_bar skills_javascript"></div>
-                </div>
-                
-                <div class="skills_data">
-                    <div class="skills_names">
-                        <i class="bx bxl-bootstrap skills_icon"></i>
-                        <span class="skills_name">Bootstrap</span>
-                    </div>
-                    <div>
-                        <span class="skills_percentage">80%</span>
-                    </div>
-                    <div class="skills_bar skills_bootstrap"></div>
-                </div>
+          <div>
+            <h2 class="skils_subtitle">Profesional skills</h2>
+            <p class="skills_text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Voluptates, doloremque voluptas rem quia dolorem ullam veritatis
+              soluta aperiam laboriosam
+            </p>
+            <div class="skills_data">
+              <div class="skills_names">
+                <i class="bx bxl-html5 skills_icon"></i>
+                <span class="skills_name">Html 5 </span>
+              </div>
+              <div>
+                <span class="skills_percentage">95%</span>
+              </div>
+              <div class="skills_bar skills_html"></div>
             </div>
-            <div class="skills_img">
-                <img
-                src="./assets/images/christina-wocintechchat-com-5DJ0VvLRSFE-unsplash.jpg"
-                alt=""
-          />
-        </div>
+
+            <div class="skills_data">
+              <div class="skills_names">
+                <i class="bx bxl-css3 skills_icon"></i>
+                <span class="skills_name">Css 3</span>
+              </div>
+              <div>
+                <span class="skills_percentage">85%</span>
+              </div>
+              <div class="skills_bar skills_css"></div>
+            </div>
+
+            <div class="skills_data">
+              <div class="skills_names">
+                <i class="bx bxl-javascript skills_icon"></i>
+                <span class="skills_name">JavaScript</span>
+              </div>
+              <div>
+                <span class="skills_percentage">75%</span>
+              </div>
+              <div class="skills_bar skills_javascript"></div>
+            </div>
+
+            <div class="skills_data">
+              <div class="skills_names">
+                <i class="bx bxl-bootstrap skills_icon"></i>
+                <span class="skills_name">Bootstrap</span>
+              </div>
+              <div>
+                <span class="skills_percentage">80%</span>
+              </div>
+              <div class="skills_bar skills_bootstrap"></div>
+            </div>
+          </div>
+          <div class="skills_img">
+            <img
+              src="./assets/images/christina-wocintechchat-com-5DJ0VvLRSFE-unsplash.jpg"
+              alt=""
+            />
+          </div>
         </div>
       </section>
       <!-- work  -->
@@ -216,9 +221,11 @@
     <footer class="footer">
       <p class="footer_title">Mohamed</p>
       <div class="footer_social">
-        <a href="" class="footer_icon"><i class='bx bxl-facebook-square' ></i></a>
-        <a href="" class="footer_icon"><i class='bx bxl-instagram' ></i>    </a
-        ><a href="" class="footer_icon"><i class='bx bxl-twitter' ></i></a>
+        <a href="" class="footer_icon"
+          ><i class="bx bxl-facebook-square"></i
+        ></a>
+        <a href="" class="footer_icon"><i class="bx bxl-instagram"></i> </a
+        ><a href="" class="footer_icon"><i class="bx bxl-twitter"></i></a>
       </div>
       <p>&#169; 2020 copyright all rigth reserved</p>
     </footer>
