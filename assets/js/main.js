@@ -51,6 +51,8 @@ sr.reveal('.skills_img', {delay:400})
 
 /*=====Scroll works  Animation======*/
 sr.reveal('.card', {interval:200})
+sr.reveal('.contact-icon', {interval:200})
+
 sr.reveal('.work_img', {interval:200})
 
 /*=====Scroll works  Animation======*/
