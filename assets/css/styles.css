@@ -262,10 +262,10 @@ nav {
   z-index: var(--z-back);
 }
 .skills_html {
-  width: 95%;
+  width: 80%;
 }
 .skills_css {
-  width: 85%;
+  width: 80%;
 }
 .skills_javascript {
   width: 75%;
