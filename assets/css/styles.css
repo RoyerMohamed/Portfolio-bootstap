@@ -103,14 +103,7 @@ img {
  
 }
 /* LAYOUT */
-.bd-grid {
-  max-width: 1024px;
-  display: grid;
-  grid-template-columns: 100%;
-  grid-column-gap: 2rem;
-  width: calc(100% - 2rem);
-  margin: 0 var(--mb-2);
-}
+
 /* NAV */
 nav {
     font-weight: var(--font-semi);
@@ -319,9 +312,12 @@ nav {
   transform: scale(1.1);
 }
 /* =======contact======== */
-.
+.email{
+  word-wrap: break-word;
+
+}
 .contact-box{
-  height: 30vh;
+  height: 80vh;
 border-radius: 10px;
 }
 .contact-icon i{
@@ -431,11 +427,16 @@ color: black;
     width: 457px;
     bottom: 15%;
   }
+  
   .about_container,
   .skills_container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     text-align: initial;
+  }
+  .resize{
+    margin:0 auto; 
+    width: 74%!important;
   }
   .about_img img {
     width: 300px;
