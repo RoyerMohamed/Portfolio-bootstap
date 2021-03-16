@@ -141,7 +141,7 @@ nav {
 
 }
 .logo{
-  
+  width: 150px !important;
 }
 .show{
   text-align: center;
@@ -383,9 +383,15 @@ color: black;
   .home_img{
     position: relative;
   }
+  .logo{
+    width: 120px !important;
+  }
   
 }
 @media screen and (min-width: 768px) {
+  .logo{
+    width: 120px !important;
+  }
   body {
     margin: 0;
   }
