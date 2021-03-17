@@ -22,7 +22,7 @@
   :root {
     --body-font: "open";
     --big-font-size: 3.5rem;
-    --h2-font-size: 1.25rem;
+    --h2-font-size: 2rem;
     --normal-font-size: 1rem;
   }
 }
@@ -75,7 +75,6 @@ a {
 img {
   max-width: 100%;
   height: auto;
-  display: block;
 }
 /* CSS CLASSES */
 .section-title {
@@ -98,8 +97,8 @@ img {
   background-color: var(--first-color);
 }
 .section {
-  padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
  
 }
 /* LAYOUT */
@@ -129,31 +128,34 @@ nav {
   .navbar-collapse a {
     color: white;
   }
+  .nav-link{
+    color: #fff !important;
+  }
   
   .navbar-collapse {
     background-color: var(--first-color)  !important;
-
-}
+    
+  }
   header{
     position: sticky;
     z-index: 1020;
     top:0;
-
-}
-.logo{
-  width: 150px !important;
-}
-.show{
+    
+  }
+  .logo{
+    width: 150px !important;
+  }
+  .show{
+    background-color:RGBA(64,112,244,.6) !important; 
   text-align: center;
 }
 .collapsing{
+  background-color:RGBA(64,112,244,.6) !important; 
   text-align: center;
 
 }
 /* HOME */
-.home {
-  height: calc(100vh - 3rem);
-}
+
 .home_data {
   align-self: center;
 }
@@ -174,6 +176,9 @@ nav {
   font-size: 1.5rem;
   color: var(--segond-color);
 }
+.home_social-icon i{
+  font-size: 3em;
+}
 .home_social-icon:hover {
   color: var(--first-color);
 }
@@ -181,9 +186,14 @@ nav {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 295px;
-}
 
+}
+.home_img img{
+  margin: 0 auto;
+
+}
+.home-icons{
+padding: 5rem !important;}
 
 /* =======button======= */
 .button {
@@ -194,8 +204,10 @@ nav {
   padding: 0.75rem 2.5rem;
   font-weight: var(--font-semi);
   border-radius: 0.5rem;
+  text-decoration: none;
 }
 .button:hover {
+  color:#fff; 
   box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
 }
 /* cpmétences */
@@ -317,8 +329,16 @@ nav {
 
 }
 .contact-box{
-  height: 80vh;
 border-radius: 10px;
+
+}
+.contact-box p {
+ font-size: 1rem; 
+
+}
+.contact-box a{
+  font-size: 1rem;
+
 }
 .contact-icon i{
 font-size: 2rem;
@@ -329,12 +349,27 @@ margin-bottom: var(--mb-3);
 .contact-icon{
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
   font-size: var(--h2-font-size);
   transition: all 1s;
+  max-width: 300px;
+  text-decoration: none;
+  transition: 1s; 
+  padding: 1em;
+
+}
+.contact-icon a{
+  text-decoration: none;
+  color:black; 
+
 }
 .contact-icon:hover{
-transform: scale(1.3);
 color: var(--mb-1);
+transform: scale(1.5);
+box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+border-radius: 15px;
+
+
 }
 .contact_input {
   width: 100%;
@@ -378,7 +413,10 @@ color: black;
   color: #fff;
   margin: 0 var(--mb-2);
 }
-/* =======media ============ */
+
+.footer_icon:hover{
+transform: scale(2);
+}/* =======media ============ */
 @media screen and (max-width: 767px) {
   .home_img{
     position: relative;
@@ -386,6 +424,7 @@ color: black;
   .logo{
     width: 120px !important;
   }
+
   
 }
 @media screen and (min-width: 768px) {
@@ -404,6 +443,7 @@ color: black;
   .section {
     padding-top: 4rem;
     padding-bottom: 3rem;
+    font-size: var(3em);
   }
   .section-title {
     margin-bottom: var(--mb-6);
@@ -413,9 +453,7 @@ color: black;
     top: 3rem;
   }
 
-  .home {
-    height: 100vh;
-  }
+ 
   .home_data {
     align-self: flex-end;
   }
@@ -464,6 +502,7 @@ color: black;
   .bd-grid {
     margin: 0 auto;
   }
+
   .home_img {
     right: 10%;
   }
