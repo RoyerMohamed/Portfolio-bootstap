@@ -182,14 +182,8 @@ nav {
 .home_social-icon:hover {
   color: var(--first-color);
 }
-/* .home_img {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-
-} */
 .home_img img{
-
+margin-top: 20px;
 
 }
 .home-icons{
