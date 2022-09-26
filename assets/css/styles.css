@@ -290,12 +290,17 @@ padding: 5rem !important;}
 
 }
 .skills_php{
-  width: 50%;
+  width: 80%;
 
 }
 .skills_java{
   width: 60%;
-
+}
+.skills_laravel{
+  width: 60%;
+}
+.skills_vue{
+  width: 50%;
 }
 /* ===Work=== */
 .work {

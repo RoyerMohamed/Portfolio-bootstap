@@ -34,3 +34,18 @@ sr.reveal('.work_img', {interval:200})
 
 sr.reveal('.contact_input', {interval:200})
 
+
+/*========== controle home paddin ==========*/
+
+let toogleBtn = document.getElementById("toogleBtn"); 
+let home = document.getElementById("home")
+let addMargin = true; 
+toogleBtn.addEventListener("click", function(){ 
+    if(addMargin){
+        home.style.margin = "10rem"
+        addMargin = false
+    }else {
+        home.style.marginTop = "0"
+        addMargin = true
+    }
+ });
